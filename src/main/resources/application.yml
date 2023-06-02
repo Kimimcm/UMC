@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.cdwkx6empbib.eu-north-1.rds.amazonaws.com:3306/MeiDB
+    username: mei
+    password: rlawns123
+  jpa:
+    hibernate:
+      ddl-auto: update
